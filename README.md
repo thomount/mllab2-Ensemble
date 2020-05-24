@@ -1,9 +1,10 @@
 使用说明：
 
 	cd src
+	python preprocess.py
 	python main.py -bagging/-ada -svm/-dt -t <turns> -b <branch_size>
 
-输出结果在output/predict.csv中
+先通过预处理将原始数据处理成向量（较慢），再执行集成学习。输出结果在output/predict.csv中
 
 
 学号: 2017011315
