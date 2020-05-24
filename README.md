@@ -1,4 +1,5 @@
 使用说明：
+	//需要手动建立data,input,output文件夹并将train.csv和test.csv放在input中
 
 	cd src
 	python preprocess.py
